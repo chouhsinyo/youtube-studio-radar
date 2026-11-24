@@ -1,6 +1,6 @@
 {
   "title": "YouTube Studio Radar — 高品質影片製作框架每週追蹤",
-  "description": "定期追蹤 GitHub 上最高品質 YouTube 影片製作的三大技術路線：動態視覺品質天花板、Agentic 全流程工作室、影視／電視台級後期上限。",
+  "description": "定期追蹤 GitHub 上最高品質 YouTube 影片製作的四大技術路線：動態視覺品質天花板、Agentic 全流程工作室、影視／電視台級後期上限、Google Flow / GenMedia 生成式影音引擎。",
   "categories": [
     {
       "id": "motion-ceiling",
@@ -112,6 +112,38 @@
           "why": "現代化 Python 介面，方便將 Youtube_Maker 腳本直接連進 Resolve"
         }
       ]
+    },
+    {
+      "id": "genmedia-flow",
+      "name": "四、Google Flow / GenMedia 生成式影音引擎與 MCP",
+      "goal": "串接 Google Flow、Gemini Omni、Veo 3.1、Nano Banana 與 Lyria，建立可控、可快取、合規的 AI 影片／配樂素材管線。",
+      "repos": [
+        {
+          "repo": "GoogleCloudPlatform/genmedia-creative-studio",
+          "role": "Google Cloud 官方 GenMedia 工作室與 MCP",
+          "why": "內建 Veo 3.1、Gemini Omni、Nano Banana、Lyria 與 AVTool Go MCP 伺服器及官方 Agent Skills"
+        },
+        {
+          "repo": "google-gemini/gemini-skills",
+          "role": "Gemini API 官方 Agent Skills",
+          "why": "含 gemini-omni-flash-api、gemini-api-dev 與 gemini-api-cli，對齊最新 Interactions API 影片生成規範"
+        },
+        {
+          "repo": "googleapis/python-genai",
+          "role": "Google Gen AI 官方 Python SDK",
+          "why": "以程式呼叫 gemini-omni-1.2-flash 影片生成、多輪對話編修與參考圖角色鎖定"
+        },
+        {
+          "repo": "ffroliva/gflow-cli",
+          "role": "Google Flow 社群 CLI 與 MCP（非官方）",
+          "why": "追蹤社群透過本機瀏覽器工作階段銜接 Flow 點數的動向（正式管線建議採官方 API 或手動入庫）"
+        },
+        {
+          "repo": "stephengpope/remotion-media-mcp",
+          "role": "Remotion AI 媒體生成 MCP",
+          "why": "參考其將生成影音直接落盤至 public/ 供 Remotion staticFile() 載入的整合模式"
+        }
+      ]
     }
   ],
   "discovery_queries": [
@@ -126,6 +158,10 @@
     {
       "label": "DaVinci Resolve / OTIO 自動化新星",
       "query": "davinci resolve mcp OR opentimelineio stars:>30 pushed:>2026-01-01"
+    },
+    {
+      "label": "Google Flow / Veo / GenMedia 生態新星",
+      "query": "google flow mcp OR genmedia mcp OR veo remotion stars:>20 pushed:>2026-01-01"
     }
   ]
 }

@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-11-24 14:52",
+  "updated_at": "2026-11-24 15:23",
   "repos": {
     "remotion-dev/remotion": {
       "full_name": "remotion-dev/remotion",
       "html_url": "https://github.com/remotion-dev/remotion",
-      "stars": 75376,
+      "stars": 75384,
       "forks": 6443,
-      "open_issues": 192,
+      "open_issues": 190,
       "language": "TypeScript",
       "license": "Custom",
       "pushed_at": "2026-11-24",
       "archived": false,
       "description": "🎥      Make videos programmatically with React",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v4.0.546",
+      "release_name": "v4.0.546",
+      "release_date": "2026-11-23",
+      "release_url": "https://github.com/remotion-dev/remotion/releases/tag/v4.0.546",
+      "last_commit_sha": "0a8246f",
+      "last_commit_msg": "Merge pull request #13605 from remotion-dev/codex/preserve-sequence-duration"
     },
     "remotion-dev/skills": {
       "full_name": "remotion-dev/skills",
       "html_url": "https://github.com/remotion-dev/skills",
-      "stars": 7928,
+      "stars": 7930,
       "forks": 875,
       "open_issues": 25,
       "language": "TypeScript",
@@ -34,15 +34,15 @@
       "release_name": "",
       "release_date": "",
       "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "last_commit_sha": "89c8afa",
+      "last_commit_msg": "Update template"
     },
     "Remocn/remocn": {
       "full_name": "Remocn/remocn",
       "html_url": "https://github.com/Remocn/remocn",
       "stars": 1855,
       "forks": 104,
-      "open_issues": 11,
+      "open_issues": 9,
       "language": "TypeScript",
       "license": "MIT",
       "pushed_at": "2026-11-24",
@@ -52,13 +52,13 @@
       "release_name": "",
       "release_date": "",
       "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "last_commit_sha": "4cd6d12",
+      "last_commit_msg": "docs: Remotion logo animation and kinetic typography guides (#366)"
     },
     "haidrrrry/claude-remotion-skill": {
       "full_name": "haidrrrry/claude-remotion-skill",
       "html_url": "https://github.com/haidrrrry/claude-remotion-skill",
-      "stars": 1302,
+      "stars": 1303,
       "forks": 179,
       "open_issues": 2,
       "language": "TypeScript",
@@ -70,8 +70,8 @@
       "release_name": "",
       "release_date": "",
       "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "last_commit_sha": "1dcbe5e",
+      "last_commit_msg": "Show the Focus Cat example on the repo page"
     },
     "motion-canvas/motion-canvas": {
       "full_name": "motion-canvas/motion-canvas",
@@ -84,12 +84,12 @@
       "pushed_at": "2026-07-02",
       "archived": false,
       "description": "Visualize Your Ideas With Code",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v3.17.2",
+      "release_name": "v3.17.2",
+      "release_date": "2024-12-14",
+      "release_url": "https://github.com/motion-canvas/motion-canvas/releases/tag/v3.17.2",
+      "last_commit_sha": "7b91435",
+      "last_commit_msg": "refactor(docs): update domain (#1231)"
     },
     "midrender/revideo": {
       "full_name": "midrender/revideo",
@@ -102,36 +102,36 @@
       "pushed_at": "2026-07-15",
       "archived": false,
       "description": "Create Videos with Code",
-      "release_tag": "",
+      "release_tag": "v0.11.0",
       "release_name": "",
       "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_url": "https://github.com/midrender/revideo/releases",
+      "last_commit_sha": "b5de67a",
+      "last_commit_msg": "docs: add RELEASING.md (#397)"
     },
     "ManimCommunity/manim": {
       "full_name": "ManimCommunity/manim",
       "html_url": "https://github.com/ManimCommunity/manim",
-      "stars": 42871,
-      "forks": 3400,
-      "open_issues": 410,
+      "stars": 42872,
+      "forks": 3401,
+      "open_issues": 411,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-23",
       "archived": false,
       "description": "A community-maintained Python framework for creating mathematical animations.",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v0.22.1",
+      "release_name": "Manim v0.22.1",
+      "release_date": "2026-10-27",
+      "release_url": "https://github.com/ManimCommunity/manim/releases/tag/v0.22.1",
+      "last_commit_sha": "37056b0",
+      "last_commit_msg": "Remove import cycles between manim's modules, and test that none come back (#5156)"
     },
     "OpenMontageInc/OpenMontage": {
       "full_name": "OpenMontageInc/OpenMontage",
       "html_url": "https://github.com/OpenMontageInc/OpenMontage",
-      "stars": 82977,
-      "forks": 11320,
+      "stars": 82982,
+      "forks": 11321,
       "open_issues": 357,
       "language": "Python",
       "license": "AGPL-3.0",
@@ -142,13 +142,13 @@
       "release_name": "",
       "release_date": "",
       "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "last_commit_sha": "2e003e6",
+      "last_commit_msg": "docs: add updated OpenMontage Instagram link"
     },
     "digitalsamba/claude-code-video-toolkit": {
       "full_name": "digitalsamba/claude-code-video-toolkit",
       "html_url": "https://github.com/digitalsamba/claude-code-video-toolkit",
-      "stars": 2744,
+      "stars": 2745,
       "forks": 479,
       "open_issues": 4,
       "language": "Python",
@@ -156,17 +156,17 @@
       "pushed_at": "2026-11-23",
       "archived": false,
       "description": "Make videos with Claude Code: script, AI voiceover, music, video clips and render, on open-source models that cost cents",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v0.30.0",
+      "release_name": "v0.30.0",
+      "release_date": "2026-11-22",
+      "release_url": "https://github.com/digitalsamba/claude-code-video-toolkit/releases/tag/v0.30.0",
+      "last_commit_sha": "b3437fc",
+      "last_commit_msg": "Merge pull request #260 from digitalsamba/feat/manim"
     },
     "ersinkoc/AI-Video-Factory": {
       "full_name": "ersinkoc/AI-Video-Factory",
       "html_url": "https://github.com/ersinkoc/AI-Video-Factory",
-      "stars": 676,
+      "stars": 677,
       "forks": 94,
       "open_issues": 1,
       "language": "TypeScript",
@@ -174,17 +174,17 @@
       "pushed_at": "2026-11-24",
       "archived": false,
       "description": "AI video factory: from one topic to a finished, multilingual YouTube video. Claude agents write, plan, draw and review; a Studio keeps the human in charge.",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v0.6.15",
+      "release_name": "v0.6.15",
+      "release_date": "2026-11-24",
+      "release_url": "https://github.com/ersinkoc/AI-Video-Factory/releases/tag/v0.6.15",
+      "last_commit_sha": "9417e48",
+      "last_commit_msg": "Release v0.6.15"
     },
     "AgriciDaniel/claude-youtube": {
       "full_name": "AgriciDaniel/claude-youtube",
       "html_url": "https://github.com/AgriciDaniel/claude-youtube",
-      "stars": 867,
+      "stars": 868,
       "forks": 169,
       "open_issues": 3,
       "language": "Python",
@@ -196,8 +196,8 @@
       "release_name": "",
       "release_date": "",
       "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "last_commit_sha": "84c3fa6",
+      "last_commit_msg": "Add author section, community links, and backlinks"
     },
     "linyqh/NarratoAI": {
       "full_name": "linyqh/NarratoAI",
@@ -210,30 +210,30 @@
       "pushed_at": "2026-10-24",
       "archived": false,
       "description": "利用 AI 大模型，一键解说并剪辑视频",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v0.8.7",
+      "release_name": "v0.8.7",
+      "release_date": "2026-07-17",
+      "release_url": "https://github.com/linyqh/NarratoAI/releases/tag/v0.8.7",
+      "last_commit_sha": "29a11b6",
+      "last_commit_msg": "更新文档"
     },
     "harry0703/MoneyPrinterTurbo": {
       "full_name": "harry0703/MoneyPrinterTurbo",
       "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "stars": 145396,
-      "forks": 23394,
+      "stars": 145401,
+      "forks": 23396,
       "open_issues": 90,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-24",
       "archived": false,
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v1.3.11",
+      "release_name": "v1.3.11",
+      "release_date": "2026-11-23",
+      "release_url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11",
+      "last_commit_sha": "dabfd3f",
+      "last_commit_msg": "fix(material): use Wan 3.0 by default (#1842)"
     },
     "AcademySoftwareFoundation/OpenTimelineIO": {
       "full_name": "AcademySoftwareFoundation/OpenTimelineIO",
@@ -246,17 +246,17 @@
       "pushed_at": "2026-11-23",
       "archived": false,
       "description": "Open Source API and interchange format for editorial timeline information.",
-      "release_tag": "",
+      "release_tag": "v0.18.1",
       "release_name": "",
       "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/releases",
+      "last_commit_sha": "f38b2cb",
+      "last_commit_msg": "Fix the version bump script to update the version headers (#2096)"
     },
     "samuelgursky/davinci-resolve-mcp": {
       "full_name": "samuelgursky/davinci-resolve-mcp",
       "html_url": "https://github.com/samuelgursky/davinci-resolve-mcp",
-      "stars": 4339,
+      "stars": 4341,
       "forks": 493,
       "open_issues": 4,
       "language": "Python",
@@ -264,12 +264,12 @@
       "pushed_at": "2026-11-24",
       "archived": false,
       "description": "MCP server integration for DaVinci Resolve Studio",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v5.4.3",
+      "release_name": "v5.4.3",
+      "release_date": "2026-11-24",
+      "release_url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.3",
+      "last_commit_sha": "79d68de",
+      "last_commit_msg": "chore(release): bump version to 5.4.3"
     },
     "barckley75/resolve-claude-mcp": {
       "full_name": "barckley75/resolve-claude-mcp",
@@ -286,8 +286,8 @@
       "release_name": "",
       "release_date": "",
       "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "last_commit_sha": "9398758",
+      "last_commit_msg": "Add LICENSE; rename display name to Resolve Claude MCP"
     },
     "flamexnreal/davinci-resolve-ai-bridge-mcp": {
       "full_name": "flamexnreal/davinci-resolve-ai-bridge-mcp",
@@ -300,12 +300,12 @@
       "pushed_at": "2026-11-12",
       "archived": false,
       "description": "DaVinci Resolve (Free Version and Studio) MCP server for Claude, Cursor, Codex, and Antigravity. Full timeline editing, cuts, camera zoom, and color grading.",
-      "release_tag": "",
-      "release_name": "",
-      "release_date": "",
-      "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "release_tag": "v1.14.4",
+      "release_name": "v1.14.4 — Safer uninstall and verified clip removal",
+      "release_date": "2026-11-12",
+      "release_url": "https://github.com/flamexnreal/davinci-resolve-ai-bridge-mcp/releases/tag/v1.14.4",
+      "last_commit_sha": "f64ccad",
+      "last_commit_msg": "docs: record Resolve Free 21.2 MCP smoke check (#11)"
     },
     "WheheoHu/pybmd": {
       "full_name": "WheheoHu/pybmd",
@@ -318,12 +318,102 @@
       "pushed_at": "2026-11-08",
       "archived": false,
       "description": "Python wrapper library for DaVinci Resolve API",
+      "release_tag": "v2026.5.0",
+      "release_name": "v2026.5.0",
+      "release_date": "2026-11-08",
+      "release_url": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+      "last_commit_sha": "0d6a7a1",
+      "last_commit_msg": "Add DaVinci Resolve 21.2 API support (2026.5.0)"
+    },
+    "GoogleCloudPlatform/genmedia-creative-studio": {
+      "full_name": "GoogleCloudPlatform/genmedia-creative-studio",
+      "html_url": "https://github.com/GoogleCloudPlatform/genmedia-creative-studio",
+      "stars": 1238,
+      "forks": 377,
+      "open_issues": 17,
+      "language": "Jupyter Notebook",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-13",
+      "archived": false,
+      "description": "GenMedia Creative Studio is a generative media user experience highlighting the use of Gemini, Gemini Omni, Veo, Gemini Image 🍌, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud.",
+      "release_tag": "v3.25.0",
+      "release_name": "v3.25.0",
+      "release_date": "2026-11-11",
+      "release_url": "https://github.com/GoogleCloudPlatform/genmedia-creative-studio/releases/tag/v3.25.0",
+      "last_commit_sha": "8e8c66e",
+      "last_commit_msg": "fix(deps): update all non-major dependencies (#2180)"
+    },
+    "google-gemini/gemini-skills": {
+      "full_name": "google-gemini/gemini-skills",
+      "html_url": "https://github.com/google-gemini/gemini-skills",
+      "stars": 4691,
+      "forks": 518,
+      "open_issues": 15,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-19",
+      "archived": false,
+      "description": "Skills for the Gemini API, SDK and model/agent interactions",
       "release_tag": "",
       "release_name": "",
       "release_date": "",
       "release_url": "",
-      "last_commit_sha": "",
-      "last_commit_msg": ""
+      "last_commit_sha": "c4d0c62",
+      "last_commit_msg": "Merge pull request #101 from google-gemini/add-neon"
+    },
+    "googleapis/python-genai": {
+      "full_name": "googleapis/python-genai",
+      "html_url": "https://github.com/googleapis/python-genai",
+      "stars": 4087,
+      "forks": 1069,
+      "open_issues": 356,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-24",
+      "archived": false,
+      "description": "Google Gen AI Python SDK provides an interface for developers to integrate Google's generative models into their Python applications.",
+      "release_tag": "v3.6.1",
+      "release_name": "v3.6.1",
+      "release_date": "2026-11-18",
+      "release_url": "https://github.com/googleapis/python-genai/releases/tag/v3.6.1",
+      "last_commit_sha": "10f479b",
+      "last_commit_msg": "fix: stop deep-copying MCP session tools in async generate_content"
+    },
+    "ffroliva/gflow-cli": {
+      "full_name": "ffroliva/gflow-cli",
+      "html_url": "https://github.com/ffroliva/gflow-cli",
+      "stars": 586,
+      "forks": 135,
+      "open_issues": 84,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-11-24",
+      "archived": false,
+      "description": "MCP server and CLI for Google Flow: generate Veo 3.1 and Omni video and Nano Banana / Imagen images from Claude Code, Claude Desktop, Cursor, Codex or the terminal. Free, MIT, on PyPI. Independent project, not affiliated with Google.",
+      "release_tag": "v0.106.0",
+      "release_name": "v0.106.0",
+      "release_date": "2026-11-23",
+      "release_url": "https://github.com/ffroliva/gflow-cli/releases/tag/v0.106.0",
+      "last_commit_sha": "4901166",
+      "last_commit_msg": "Merge pull request #1460 from LeonJoeeee/feature/thinking-level-and-4k-video"
+    },
+    "stephengpope/remotion-media-mcp": {
+      "full_name": "stephengpope/remotion-media-mcp",
+      "html_url": "https://github.com/stephengpope/remotion-media-mcp",
+      "stars": 34,
+      "forks": 16,
+      "open_issues": 4,
+      "language": "JavaScript",
+      "license": "-",
+      "pushed_at": "2026-02-25",
+      "archived": false,
+      "description": "MCP server that generates images, videos, music, sound effects, speech, and subtitles for Remotion projects",
+      "release_tag": "",
+      "release_name": "",
+      "release_date": "",
+      "release_url": "",
+      "last_commit_sha": "9e153f4",
+      "last_commit_msg": "1.2.2"
     }
   },
   "discovery": [
@@ -333,7 +423,7 @@
         {
           "full_name": "Vincentwei1021/video-shotcraft",
           "html_url": "https://github.com/Vincentwei1021/video-shotcraft",
-          "stars": 22395,
+          "stars": 22403,
           "pushed_at": "2026-11-24",
           "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot "
         },
@@ -347,7 +437,7 @@
         {
           "full_name": "Vincentwei1021/anything2explainer",
           "html_url": "https://github.com/Vincentwei1021/anything2explainer",
-          "stars": 3607,
+          "stars": 3610,
           "pushed_at": "2026-11-21",
           "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a blac"
         },
@@ -394,6 +484,25 @@
           "stars": 484,
           "pushed_at": "2026-10-23",
           "description": "Skills that teach Claude Code to be a first-pass video editor in DaVinci Resolve: transcript cuts, v"
+        }
+      ]
+    },
+    {
+      "label": "Google Flow / Veo / GenMedia 生態新星",
+      "items": [
+        {
+          "full_name": "maanimeisam/Google-Flow-Helper",
+          "html_url": "https://github.com/maanimeisam/Google-Flow-Helper",
+          "stars": 58,
+          "pushed_at": "2026-09-25",
+          "description": "Unlocks Google Flow limitations by patching API responses based on remote specs."
+        },
+        {
+          "full_name": "miyakejima/google-flow-mcp",
+          "html_url": "https://github.com/miyakejima/google-flow-mcp",
+          "stars": 28,
+          "pushed_at": "2026-10-31",
+          "description": "Generate and download Google Flow videos and images from Codex, Antigravity, and any MCP agent. Live"
         }
       ]
     }

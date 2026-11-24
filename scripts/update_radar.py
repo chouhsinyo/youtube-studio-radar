@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 import json
 import os
 from pathlib import Path
+import shutil
+import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -27,13 +29,29 @@ API_BASE = "https://api.github.com"
 
 
 def gh_get(path_or_url: str) -> dict | list | None:
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if not token and shutil.which("gh"):
+        endpoint = path_or_url.removeprefix(API_BASE)
+        try:
+            res = subprocess.run(
+                ["gh", "api", endpoint],
+                capture_output=True,
+                text=True,
+                timeout=20,
+            )
+            if res.returncode == 0 and res.stdout.strip():
+                return json.loads(res.stdout)
+            return None
+        except Exception as e:
+            print(f"WARN: gh api failed for {endpoint}: {e}", file=sys.stderr)
+            return None
+
     url = path_or_url if path_or_url.startswith("http") else f"{API_BASE}{path_or_url}"
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": "chouhsinyo-youtube-studio-radar",
         "X-GitHub-Api-Version": "2022-11-28",
     }
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token.strip()}"
     req = urllib.request.Request(url, headers=headers)
@@ -218,7 +236,8 @@ def build_readme(cfg: dict, prev_repos: dict, curr_repos: dict, discovery: list[
             "",
             "1. **動態視覺品質天花板**：使用 `python shared/production/pipeline.py export-remotion videos/<project>` 匯出時間軸 JSON，交給 `Youtube_Remotion/` 進行高質感 React/TS 動畫渲染。",
             "2. **影視／電視台級上限**：使用 `python shared/production/pipeline.py export-otio videos/<project>` 匯出 `.otio` 時間軸，一鍵匯入 DaVinci Resolve（免費版／Studio）進行電影級調色與 Fairlight 混音。",
-            "3. **Agentic 全流程**：本機已更新 `youtube-studio-pipeline` 與 `remotion-motion-design` Skills，並對齊最新 `remotion-dev/skills` 與 `OpenMontage` 規範。",
+            "3. **Google Flow / GenMedia 生成素材管線**：先產配音定秒數，再以 `python shared/production/pipeline.py plan-flow videos/<project>` 產出 `assets_manifest.json` 與提示詞任務卡；從 Google Flow UI 下載後執行 `ingest-flow` 自動轉檔 `1080p/30fps`、`ffprobe` 品檢並入庫 `clips/` 與 `Youtube_Remotion/public/`。",
+            "4. **Agentic 全流程**：本機已更新 `youtube-studio-pipeline` 與 `remotion-motion-design` Skills，並對齊最新 `remotion-dev/skills`、`OpenMontage` 與 `google-gemini/gemini-skills` 規範。",
             "",
             "---",
             "本檔案由 [`scripts/update_radar.py`](scripts/update_radar.py) 自動產生，請修改 [`watchlist.json`](watchlist.json) 來增減追蹤清單。",
@@ -232,7 +251,7 @@ def main() -> None:
     cfg = json.loads(WATCHLIST.read_text(encoding="utf-8"))
     prev_state = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.is_file() else {}
     prev_repos = prev_state.get("repos", {})
-    has_token = bool(os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN"))
+    has_token = bool(os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or shutil.which("gh"))
     full_mode = has_token and ("--lite" not in sys.argv)
 
     curr_repos: dict[str, dict] = {}
